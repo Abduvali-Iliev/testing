@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05_form.html</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form>
+        <div>
+            <label for="text2">Text</label>
+            <input type="text" id="text2">
+        </div>
+<br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="program@gmail.com">
+        </div>
+<br>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password">
+        </div>
+<br>
+        <div>
+            <label for="number">number</label>
+            <input type="number" id="number" min="0">
+        </div>
+<br>
+        <div>
+            <label for="range">Range</label>
+            <input type="range" id="range" min="0" max="10" step="1">
+        </div>
+<br>
+        <div>
+            <label for="date">Date</label>
+            <input type="date" id="date">
+        </div>
+<br>
+        <div>
+            <label for="color">color</label>
+            <input type="color" id="color">
+        </div>
+<br>
+        <div>
+            <label for="message">Сообщение</label>
+          <br>
+            <textarea placeholder="New message" name="" id="message" cols="60" rows="5"></textarea>
+        </div>
+<br>
+        <div>
+            <label for="sex">Ваш пол</label>
+            <select name="" id="sex">
+                <option value="Male" selected>Male</option>
+                <option value="Female">Female</option>
+                <option value="Animal">Animal</option>
+            </select>
+        </div>
+<br>
+        <div>
+            <label>Количество работ</label>
+            <input type="radio" name="work"> 1
+            <input type="radio" name="work"> 2
+            <input type="radio" name="work"> 5
+            <input type="radio" name="work"> 10+
+        </div>
+<br>
+        <div>
+            <label>Любимая еда</label>
+            <input type="checkbox" name="food"> Машхорда
+            <input type="checkbox" name="food"> Плов
+            <input type="checkbox" name="food"> Манты
+            <input type="checkbox" name="food"> Лагман
+        </div>
+<br>
+        <!-- <input type="submit" value="Отправить форму"> -->
+
+        <button type="submit">Отправить форму</button>
+<br>
+<br>
+        <div>
+            <label for="accept">Выберите файл загрузки</label>
+            <input type="file">
+        </div>
+<br>
+        <div>
+            <input type="hidden">
+        </div>
+
+        <h1>Связаться со мной</h1>
+        <div>
+            <label for="text1">Ваше имя:</label>
+            <input type="text" id="text1" placeholder="Введите имя">
+        </div>
+        <br>
+        <div>
+            <label for="email1">Ваш email:</label>
+            <input type="email" id="email1" placeholder="Введите email">
+        </div>
+        <br>
+        <div>
+            <label for="date1">Введите ваш день рождения</label>
+            <div><input type="date" ></div>
+        </div>
+        <br>
+        <div>
+            <label for="telephon number">Введите ваш номер</label>
+            <input type="tel" placeholder="+996">
+        </div>
+        <br>
+        <div>
+            <label for="">Ваш выбор города</label>
+            <select>
+                <option value="">Лондон</option>
+                <option value="">Люксенбурк</option>
+                <option value="">Нью-Йорк</option>
+                <option value="">Дублин</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="massage1">Ваше сообщение</label>
+            <br>
+            <textarea name="" id="message1" cols="30" rows="5" placeholder="Введите сообщение..."></textarea>
+        </div>
+        <button>Send !</button>
+
+    </form>
+
+
+    
+</body>
+</html>
